@@ -1,0 +1,131 @@
+body{
+    padding-top: 14%;
+    padding-left: 14%;
+    background-color: lightgreen;
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+
+.container{
+    height: 400px;
+    top: 15%;
+    left: 15%
+
+}
+.key{
+    display: inline-block;
+
+}
+
+.white-keys{
+    display: inline-flex;
+    position: fixed;
+    top: 14%;
+    left: 14%;
+    height: 300px;
+    width: 730px;
+    margin-left: 0;
+    padding: 0;
+    z-index: 0;
+}
+
+kbd{
+    display: inline-block;
+}
+
+.white-keys kbd{
+    margin-left: 0;
+    height: 280px;
+    width: 96px;
+    background-color: white;
+    border: black solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.black-keys{
+    display: inline-block;
+    position: fixed;
+    top: 14%;
+    left: 14%;
+    color: white;
+    height: 200px;
+    width: 1000px;
+    z-index: 3;
+}
+
+.black-keys kbd{
+    display: inline-block;
+    /*justify-content: space-evenly;*/
+    height: 110px;
+    width: 50px;
+    background-color: black;
+    z-index: 5;
+
+}
+
+.w{
+    margin-left: 75px;
+}
+
+.e{
+    margin-left: 50px;
+}
+
+.t{
+    margin-left: 142px;
+}
+.y{
+    margin-left: 48px;
+}
+
+.u{
+    margin-left: 46px;
+}
+
+
+
+/*body {*/
+/*    background-color: rgb(36, 42, 59);*/
+/*    text-align: center;*/
+/*    height: 98vh;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+/*.container {*/
+/*    background-color: rgba(0, 0, 0, 0.2);*/
+/*    margin: auto;*/
+/*    width: 30em;*/
+/*    height: 200px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+/*.white-keys{*/
+/*    display: flex;*/
+/*}*/
+/*.white-key{*/
+/*    background-color: white;*/
+/*    width: 50px;*/
+/*    border: 1px solid black;*/
+/*    padding-top: 120px;*/
+/*}*/
+
+/*.black-keys{*/
+/*    display: flex;*/
+/*    position: absolute;*/
+/*    width: 350px;*/
+/*    height: 100px;*/
+/*    justify-content:space-around;*/
+/*}*/
+
+/*.black-key {*/
+/*    background-color: black;*/
+/*    width: 35px;*/
+/*    color: white;*/
+/*    padding-top: 50px;*/
+/*}*/
+/*.t{*/
+/*    margin-left: 40px;*/
+/*}*/
